@@ -1,0 +1,83 @@
+/*---GLOBALE---*/
+html,body{
+    margin: 0;
+    padding: 0;       
+}
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fond1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*--- TITRE ---*/
+
+h1{
+    padding:50px 0 0 0; 
+    text-align: center;
+    color: white;
+}
+
+
+label{
+    font-size: 25px;
+}
+
+/*--- FORMULAIRE ---*/
+
+#formulaire{
+    text-align: center;
+}
+
+
+#center{
+    margin: 5%;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.champ input{
+    margin-bottom: 25px;
+    border: none;
+    font-size: 20px;
+    padding-top: 2px;
+    
+}
+
+.champ imput:focus{
+    outline : none;
+    background-color: rgba(86, 138, 147, 0.24);    
+}
+
+    /*-Bouton-*/
+#submit{
+    background-color: #375B7F;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    border-radius: 8px;
+    border-color: none;
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: #FFF;
+    color:black;
+}
+
+    /*-Image formulaire-*/
+
+img{
+    text-align: center;
+    filter: invert(93%) sepia(100%) saturate(28%) hue-rotate(95deg) brightness(106%) contrast(107%);
+    font-size: 96px;
+    width: 80%;
+    padding-bottom: 19px;
+    margin: 0 0 0 10%;
+    
+}
